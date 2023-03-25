@@ -8,6 +8,7 @@
     <artifactId>TaskJDBC</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -18,9 +19,11 @@
                 </configuration>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
     <dependencies>
+
 <!--         Ваши зависимости-->
          <!-- https://mvnrepository.com/artifact/junit/junit -->
          <dependency>
